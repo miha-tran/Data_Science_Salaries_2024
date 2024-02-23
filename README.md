@@ -35,7 +35,7 @@ Data Cleaning and Processing:
 - Ensure consistency in categorical variables.
 - Remove any duplicates if present.
 - Handle any outliers in the salary data.
-- 
+  
 Exploratory Data Analysis (EDA):
 - Calculate summary statistics for numerical variables like salary and work_year.
 - Explore distributions of numerical variables using histograms or box plots.
