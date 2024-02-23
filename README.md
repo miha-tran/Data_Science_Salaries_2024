@@ -29,14 +29,22 @@ The primary dataset was sourced from ai-jobs.net and LinkedIn.com, consisting of
 - **Dataset 3**: 7,927 rows and 15 columns, featuring attributes like Job ID, Job Title, Location, Company ID, Company Name, Work Type, Full-time Remote status, Number of Employees, Number of Applications, Posted Day Ago, Alumni status, Hiring Person details, LinkedIn Followers of the hiring person, Hiring Person's LinkedIn profile link, and Job Details.
 
 ## Data Processing
-Using Anaconda to create a new environment for the Jupyter notebook.
-1. Create a New Environment: Create a new conda environment using the command:
-           conda create --name myenv
-2. Activate the Environment: Activate the newly created environment using:
-        conda activate myenv
-3. Launch Jupyter Notebook: Start a Jupyter Notebook 
-4. Write Python Script: Write a Python script in the Jupyter Notebook or any text editor to read, clean, and merge the CSV files using the pandas library.
-5. Save the Cleaned Data: Save the cleaned data as a new CSV file using the pandas DataFrame to_csv method.
-6. Deactivate Environment: After completing the task, deactivate the conda.
-7. Export Environment (Optional): If you want to share the environment with others, export it to a YAML file using:
-         env export > environment.yml
+Data Cleaning and Processing:
+- Check for missing values and handle them if necessary.
+- Convert columns to appropriate data types.
+- Ensure consistency in categorical variables.
+- Remove any duplicates if present.
+- Handle any outliers in the salary data.
+- 
+Exploratory Data Analysis (EDA):
+- Calculate summary statistics for numerical variables like salary and work_year.
+- Explore distributions of numerical variables using histograms or box plots.
+- Analyze the distribution of categorical variables like job_title, experience_level, and employment_type using bar plots.
+- Examine relationships between variables using scatter plots, pair plots, or correlation matrices.
+- Investigate any trends or patterns in the data, such as salary trends over the years or variations across different job titles or experience levels.
+  
+Plotting Salary Insights:
+- Create visualizations to illustrate salary trends over the years using line plots or bar plots.
+- Compare salary distributions across different job titles, experience levels, or employment types using box plots or violin plots.
+- Explore the relationship between salary and other variables like work models, employee residence, or company size using scatter plots or grouped bar plots.
+- Generate insights based on the visualizations, such as identifying high-paying job titles, understanding how salary varies with experience level, or uncovering any geographical salary disparities.
