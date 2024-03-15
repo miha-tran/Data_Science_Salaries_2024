@@ -1,5 +1,39 @@
 # Capstone Project: Data Science 2024
 
+Welcome to the Data Science Capstone Project for the year 2024!
+
+This repository contains all the necessary resources, code, and documentation for our capstone project in data science. Throughout this project, we aim to apply advanced data science techniques to solve real-world problems and gain valuable insights from data.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Introduction](#introduction)
+- [Story Behind](#story-behind)
+- [Problem Statement](#problem-statement)
+- [Our Solution](#our-solution)
+- [Objectives](#objectives)
+- [Potential Impact](#potential-impact)
+- [Dataset](#dataset)
+  - [Data Description](#data-description)
+  - [Data Dictionary](#data-dictionary)
+  - [Data Source](#data-source)
+  - [Data Coverage](#data-coverage)
+- [Project Roadmap](#project-roadmap)
+  - [Data Cleaning](#data-cleaning)
+  - [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Feature Engineering](#feature-engineering)
+  - [Feature Selection](#feature-selection)
+  - [Model Development](#model-development)
+  - [Model Interpretation](#model-interpretation)
+  - [Model Deployment](#model-deployment)
+    - [User Interface Development](#user-interface-development)
+- [Conclusion](#conclusion)
+  - [Insights & Findings](#insights--findings)
+  - [Key Takeaways](#key-takeaways)
+  - [Future Directions](#future-directions)
+  - [Final Thoughts](#final-thoughts)
+
+
 ## Project Overview
 
 ### Problem Area / Users
