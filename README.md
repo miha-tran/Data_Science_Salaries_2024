@@ -4,15 +4,15 @@ Welcome to the Data Science Capstone Project for the year 2024!
 
 This repository contains all the necessary resources, code, and documentation for our capstone project in data science. Throughout this project, we aim to apply advanced data science techniques to solve real-world problems and gain valuable insights from data.
 
-## Table of Contents
+## 📝 Table of Contents <a class="anchor" id="toc"></a>
 
 - [Project Overview](#project-overview)
-- [Introduction](#introduction)
-- [Story Behind](#story-behind)
-- [Problem Statement](#problem-statement)
-- [Our Solution](#our-solution)
-- [Objectives](#objectives)
-- [Potential Impact](#potential-impact)
+  - [Introduction](#introduction)
+  - [Story Behind](#story-behind)
+  - [Problem Statement](#problem-statement)
+  - [Our Solution](#our-solution)
+  - [Objectives](#objectives)
+  - [Potential Impact](#potential-impact)
 - [Dataset](#dataset)
   - [Data Description](#data-description)
   - [Data Dictionary](#data-dictionary)
@@ -26,14 +26,16 @@ This repository contains all the necessary resources, code, and documentation fo
   - [Model Development](#model-development)
   - [Model Interpretation](#model-interpretation)
   - [Model Deployment](#model-deployment)
-    - [User Interface Development](#user-interface-development)
+  - [User Interface Development](#user-interface-development)
 - [Conclusion](#conclusion)
   - [Insights & Findings](#insights--findings)
   - [Key Takeaways](#key-takeaways)
   - [Future Directions](#future-directions)
   - [Final Thoughts](#final-thoughts)
+  - 
+---
+## Project Overview ![wave](https://github.com/miha-tran/Data_Science_Salaries_2024/assets/149928007/169a1d1c-b2bb-476a-9a32-1ec50c60f50c)
 
-## Project Overview
 
 ### Introduction
 #### Problem Area / Users
