@@ -112,15 +112,15 @@ The primary dataset was sourced from ai-jobs.net, consisting of 14,299 rows and 
 ### Data Dictionary
 - work_year: The year the salary was paid.
 - experience_level: The experience level in the job during the year with the following possible values:
--- EN: Entry-level / Junior
--- MI: Mid-level / Intermediate
--- SE: Senior-level / Expert
--- EX: Executive-level / Director
+---  EN: Entry-level / Junior
+---  MI: Mid-level / Intermediate
+---  SE: Senior-level / Expert
+---  EX: Executive-level / Director
 - employment_type: The type of employment for the role:
--- PT: Part-time
--- FT: Full-time
--- CT: Contract
--- FL: Freelance
+--- PT: Part-time
+--- FT: Full-time
+--- CT: Contract
+--- FL: Freelance
 - job_title: The role worked in during the year.
 - salary: The total gross salary amount paid.
 - salary_currency: The currency of the salary paid as an ISO 4217 currency code.
@@ -132,40 +132,12 @@ The primary dataset was sourced from ai-jobs.net, consisting of 14,299 rows and 
 -- 100: Fully remote (more than 80%)
 - company_location: The country of the employer's main office or contracting branch as an ISO 3166 country code.
 - company_size: The average number of people that worked for the company during the year:
--- S: less than 50 employees (small)
--- M: 50 to 250 employees (medium)
--- L: more than 250 employees (large) (large) |
+--- S: less than 50 employees (small)
+--- M: 50 to 250 employees (medium)
+--- L: more than 250 employees (large) (large) |
 
 ### Data Source
 https://ai-jobs.net/salaries/download/
-
-### Data Coverage
-
-The dataset provides comprehensive coverage of various aspects related to Data Science Salaries, including:
-
-- **Work Year:** The year in which the salary was paid, providing a longitudinal view of salary trends from 2020 to 2024.
-
-- **Experience Level:** Categorization of experience levels into Entry-level, Mid-level, Senior-level, and Executive-level, offering insights into salary distributions across different career stages.
-
-- **Employment Type:** Classification of employment types into Part-time, Full-time, Contract, and Freelance, facilitating analysis of salary variations based on employment arrangements.
-
-- **Job Title:** Description of the roles held during the respective year, allowing for the examination of salary disparities across different positions within the data science field.
-
-- **Salary:** The total gross salary amount paid, serving as the primary metric for analyzing compensation trends.
-
-- **Salary Currency:** The currency of the salary paid, providing clarity on the currency denomination for international comparisons.
-
-- **Salary in USD:** Conversion of salaries into USD, allowing for standardized analysis and comparison across different regions.
-
-- **Employee Residence:** Employee's primary country of residence during the work year, enabling the assessment of salary differentials based on geographical location.
-
-- **Remote Ratio:** Quantification of remote work percentages, ranging from no remote work to fully remote arrangements, elucidating the impact of remote work on salary structures.
-
-- **Company Location:** The country of the employer's main office or contracting branch, offering insights into regional variations in salary levels.
-
-- **Company Size:** Categorization of company sizes into small, medium, and large, providing context on the organizational scale and its influence on salary distributions.
-
-With these comprehensive data attributes, the dataset offers a rich resource for analyzing and understanding Data Science Salaries across various dimensions and contexts.
 
 ## Project Roadmap
 1. **Data Collection and Preparation**
