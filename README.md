@@ -141,105 +141,87 @@ The primary dataset was sourced from ai-jobs.net, consisting of 14,299 rows and 
 ### Data Source
 https://ai-jobs.net/salaries/download/
 
-## Project Roadmap
-1. **Data Collection and Preparation**
-   - Gather data from diverse sources spanning from 2020 to 2024.
-   - Handle missing values, inconsistencies, and outliers through initial data cleaning.
-   - Standardize data formats and ensure compatibility for further analysis.
+<!-- SIMPLE ROADMAP -->
+## Simple Roadmap
 
-2. **Exploratory Data Analysis (EDA)**
-   - Performing exploratory data analysis to understand dataset distribution and characteristics.
-   - Explore correlations between variables and uncover potential predictors of salary.
-
-3. **Feature Engineering**
-   - Engineer new features or transform existing ones to enhance predictive modeling capabilities.
-   - Utilize techniques like one-hot encoding or feature hashing for extracting relevant information from categorical variables.
-
-4. **Model Development**
-   - Selecting appropriate machine learning algorithms and hyperparameters for salary prediction.
-   - Split dataset into training and testing sets and train multiple models using different algorithms.
-
-5. **Model Interpretation**
-   - Interpret model results and analyze feature importance to identify influential variables in predicting salary.
-   - Validating model assumptions and assessing model robustness through sensitivity analysis.
-
-6. **Model Deployment**
-   - Deploy trained model in a production environment and develop a user-friendly interface for accessing model predictions.
-   - Implement monitoring and maintenance procedures to ensure continued performance and accuracy.
-
-7. **Evaluation and Validation**
-   - Evaluating deployed model's performance using real-world data and relevant metrics.
-   - Validate model predictions against actual salary data to assess reliability and effectiveness.
-
-8. **Documentation and Reporting**
-   - Documenting project workflow, including data preprocessing, modeling techniques, and evaluation results.
-   - PDF report summarizing key findings, insights, and recommendations.
-   - PowerPoint presentation slides communicating project outcomes to stakeholders.
-
-### Data Cleaning
-1. Handling Missing Values:
-
-- Identify missing values in the dataset.
-- Identify outliers in the dataset using statistical methods or visualization techniques.
-- Identify inconsistencies in the dataset, such as spelling errors, formatting issues, or conflicting information.
-- Standardize variables to ensure consistency across the dataset, such as converting text to lowercase, removing special characters, or converting dates to a consistent format.
-
-2. Handling Duplicate Entries:
-
-- Identify duplicate entries in the dataset, which may arise due to data entry errors or system issues.
-- Decide on a strategy for handling duplicate entries, such as removing duplicates, merging duplicate entries, or flagging them for further investigation.
-
-3. Encoding Categorical Variables:
-
-- Identify categorical variables in the dataset.
-- Decide on an appropriate encoding scheme for categorical variables, such as one-hot encoding, label encoding, or frequency encoding.
-- Implement the chosen encoding scheme to transform categorical variables into a format suitable for analysis.
-
-4. Dealing with Skewed Data:
-
-- Identify skewed distributions in the dataset, which may impact the performance of machine learning algorithms.
-- Decide on an appropriate transformation to address skewness, such as log transformation, square root transformation, or Box-Cox transformation.
-
-5. Ensuring Consistency and Integrity:
-
-- Check for consistency and integrity constraints in the dataset, such as referential integrity between related tables or logical constraints within the dataset.
-- Implement checks and validations to ensure that the dataset adheres to these constraints and that the data is internally consistent.
+- [x] Finding the right dataset(s)
+- [x] Cleaning the dataset and filling the empty values as needed
+- [x] Trying multiple types of prediction models
+- [ ] Finding the best model for the current situation
+- [ ] Training the model for maximum efficiency
+- [ ] Export a clean dataframe/CSV on Kaggle for other users
+- [ ] Hosting the project on a website for easy utilization
+- [ ] Updating the dataset every quarter or every year, for maximum efficiency of the predictions
 
 
-### Exploratory Data Analysis
-1. Data Profiling:
-- Examine the structure and size of the dataset.
-- Identify the types of variables (numerical, categorical, etc.) present in the dataset.
-- Determine the range and distribution of values for each variable.
+<!-- DETAILED ROADMAP -->
+## Detailed Roadmap
 
-2. Univariate Analysis:
+- [x] Finding the right dataset(s)
 
-- Analyze individual variables in isolation to understand their distributions and characteristics.
-- For numerical variables, compute summary statistics such as mean, median, standard deviation, and percentiles. Visualize distributions using histograms, box plots, or density plots.
-- For categorical variables, compute frequency counts and percentages for each category. Visualize distributions using bar charts or pie charts.
+Finding the right dataset was difficult. When I started this project, I wanted to make it about predicting both game ratings as well as game sales. However, after checking some datasets regarding sales, it seemed like most of the datasets were incomplete. I could find more info on VGChartz, but I would have to do all of it line by line. After a few lines, I also realized that I had to search every game separately, as the data was not at the same place for all the games. And it was also hard to find the data outside of "Total Sales".
 
-3. Bivariate Analysis:
+I debatted still keeping sales but because of the time constraint, I decided to drop sales for now and focus on the rating prediction.
 
-- Explore relationships between pairs of variables to identify potential associations or patterns.
-- For numerical variables, compute correlation coefficients and visualize relationships using scatter plots or heatmaps.
-- For categorical variables, compute contingency tables and visualize relationships using stacked bar charts or mosaic plots.
-- Explore interactions between numerical and categorical variables using grouped box plots or violin plots.
+- [x] Cleaning the dataset and filling the empty values as needed
 
-4. Multivariate Analysis:
+Just like the first point, I tried to fill the values line by line at first, when I was still working on both ratings and sales. However, I since I turned out to only find about 2000 lines of data, I deemed it incomplete and I stopped filling in the values. I also wanted to fill in the values regarding story-focused games and gameplay-focus games, but I realized that it was most of the time correlated with the genre. So I also stopped doing that.
 
-- Extend bivariate analysis to include multiple variables simultaneously.
-- Identify complex relationships and interactions between multiple variables using techniques such as clustering, dimensionality reduction, or regression analysis.
-- Visualize multivariate relationships using techniques like scatterplot matrices, parallel coordinate plots, or trellis plots.
+When I only kept the rows with the info in the Metacritic Score, it was about 14k and I decided it was enough.
 
-5. Feature Engineering:
+- [x] Trying multiple types of prediction models
 
-- Generate new features or transformations based on insights gained from EDA.
-- Create derived variables that capture additional information or relationships between existing variables.
-- Remove redundant or irrelevant features that do not contribute to the analysis.
+Right after I finally decided to go on with the ratings and not the sales, I threw in some models. I had to adjust the cut-off value for the categories a few times, to make it easier to categorize the games. After deciding on 3 categories, I found the sweet spots and decided to change notebook after that. The first notebook was getting long and slow and it would be better to start anew for the modelling. I transferred the first few models I did to the bottom of the new notebook and then started the pre-processing. (still in the works)
 
-6. Identifying Patterns and Anomalies:
 
-- Search for patterns, trends, or anomalies in the data that may require further investigation.
-- Use visualization techniques such as time series plots, trend lines, or anomaly detection algorithms to identify interesting patterns or outliers.
+- [ ] Finding the best model for the current situation
+- [ ] Training the model for maximum efficiency
+- [ ] Export a clean dataframe/CSV on Kaggle for other users
+- [ ] Hosting the project on a website for easy utilization
+- [ ] Updating the dataset every quarter or every year, for maximum efficiency of the predictions
+
+<br>
+And of course, updating the README.md everytime I add new features or the project gets closer to completion.
+<br>
+See the [open issues](https://github.com/benji02/capstone_project/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+## Contributing
+<!--
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+-->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+<!--
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+ -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Benjamin Lavoie - [LinkedIn](https://www.linkedin.com/in/minh-hai/ ) - mihari.tran@gmail.com
+
+Project Link: [https://github.com/benji02/capstone_project](https://github.com/miha-tran/Data_Science_Salaries_2004)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
