@@ -5,7 +5,7 @@
   <a href="[https://github.com/miha-tran/Data_Science_Salaries_2024]"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a [href="https://github.com//miha-tran/Data_Science_Salaries_2024]">View Demo</a>
+    <a [href="https://github.com//miha-tran/Data_Science_Salaries_2024]">Explore the docs</a>
     ·
     <a href="https://github.com//miha-tran/Data_Science_Salaries_2024/issues">Report Bug</a>
     ·
