@@ -1,47 +1,52 @@
-# Capstone Project: Data Science 2024
+<h3 align="center">Capstone Project: Data Science 2024</h3>
 
-Welcome to the Data Science Capstone Project for the year 2024!
+ <p align="center">Welcome to the my capstone Project for BrainStation Bootcamp.
+  <br />
+  <a href="[https://github.com/miha-tran/Data_Science_Salaries_2024]"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a [href="https://github.com//miha-tran/Data_Science_Salaries_2024]">View Demo</a>
+    ·
+    <a href="https://github.com//miha-tran/Data_Science_Salaries_2024/issues">Report Bug</a>
+    ·
+    <a href="https://github.com//miha-tran/Data_Science_Salaries_2024/issues">Request Feature</a>
+  </p>
+</div>
 
-This repository contains all the necessary resources, code, and documentation for our capstone project in data science. Throughout this project, we aim to apply advanced data science techniques to solve real-world problems and gain valuable insights from data.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#project-overview">Project Overview</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#data-dictionary">Data Dictionary</a></li>
+    <li><a href="#simple-roadmap">Simple Roadmap</a></li>
+    <li><a href="#detailed-roadmap">Detailed Roadmap</a></li>    
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-## 📝 Table of Contents <a class="anchor" id="toc"></a>
-
-- [Project Overview](#project-overview)
-  - [Introduction](#introduction)
-  - [Story Behind](#story-behind)
-  - [Problem Statement](#problem-statement)
-  - [Our Solution](#our-solution)
-  - [Objectives](#objectives)
-  - [Potential Impact](#potential-impact)
-- [Dataset](#dataset)
-  - [Data Description](#data-description)
-  - [Data Dictionary](#data-dictionary)
-  - [Data Source](#data-source)
-  - [Data Coverage](#data-coverage)
-- [Project Roadmap](#project-roadmap)
-  - [Data Cleaning](#data-cleaning)
-  - [Exploratory Data Analysis](#exploratory-data-analysis)
-  - [Feature Engineering](#feature-engineering)
-  - [Feature Selection](#feature-selection)
-  - [Model Development](#model-development)
-  - [Model Interpretation](#model-interpretation)
-  - [Model Deployment](#model-deployment)
-  - [User Interface Development](#user-interface-development)
-- [Conclusion](#conclusion)
-  - [Insights & Findings](#insights--findings)
-  - [Key Takeaways](#key-takeaways)
-  - [Future Directions](#future-directions)
-  - [Final Thoughts](#final-thoughts)
-  - 
----
+<!-- ABOUT THE PROJECT -->
 ## Project Overview ![wave](https://github.com/miha-tran/Data_Science_Salaries_2024/assets/149928007/169a1d1c-b2bb-476a-9a32-1ec50c60f50c)
 
-
-### Introduction
-#### Problem Area / Users
+### Problem Area and Users
 In the dynamic field of data science, understanding salary trends is crucial for professionals and organizations. This dataset provides insights into Data Science Salaries from 2020 to 2024, offering valuable information on trends, regional variations, and factors influencing compensation for data enthusiasts, researchers, and industry professionals.
 
-#### The Big Idea
+### The Big Idea
 Utilizing machine learning, the insights from the data can be harnessed to understand different factors:
 
 1. **Predictive Modeling**: By analyzing past salary data, machine learning can predict future salary trends, aiding professionals and companies in making informed decisions about compensation.
@@ -52,91 +57,86 @@ Utilizing machine learning, the insights from the data can be harnessed to under
    
 4. **Personalized Recommendations**: Leveraging individual profiles, machine learning can offer tailored advice on career development, skill enhancement, and negotiation tactics to improve salaries.
    
-5. **Regional Disparities Analysis**: By analyzing data from different regions, machine learning can uncover disparities in salaries, providing insights into geographical variations in compensation.
-
-#### Impact
+### The Impact:
 This project is anticipated to bring tangible benefits to both society and businesses. By leveraging advanced technology, the aim is to assist companies in setting salaries more effectively, thereby increasing employee satisfaction and reducing turnover rates. This could potentially save businesses expenses associated with hiring and training new staff. Additionally, by streamlining the salary negotiation process, both employees and companies can save valuable time. Moreover, offering fair and competitive pay can help companies attract top talent, giving them a competitive edge in the market. In essence, the project aims to enhance the salary determination process for all stakeholders involved.
 
-### Story Behind
-The genesis of this project stems from my personal inquiry regarding my career trajectory. Dissatisfied with the limited and often unreliable data available online through Google searches, I embarked on this capstone project to procure accurate and pertinent information for not only myself but also my classmates.
-
-### Problem Statement
-The project aims to address the challenge of inadequate and unreliable data available online regarding salary trends in the dynamic field of data science. Existing resources often provide limited insights, leaving professionals and organizations without a comprehensive understanding of salary dynamics. This lack of accurate and up-to-date information hampers individuals' ability to make informed decisions about their career paths and compensation negotiations. Therefore, the project endeavors to bridge this gap by providing robust, data-driven insights into Data Science Salaries from 2020 to 2024, empowering professionals and organizations to navigate the landscape with confidence.
-
-### Our Solution
-To address the challenge of inadequate and unreliable data regarding salary trends in data science, we propose the following solution:
-
-- Comprehensive Data Collection: We will gather a diverse range of data sources spanning from 2020 to 2024, ensuring a comprehensive representation of salary trends in the field of data science.
-
-- Data Cleaning and Processing: Rigorous data cleaning and preprocessing techniques will be applied to ensure the accuracy and consistency of the dataset.
-
-- Exploratory Data Analysis (EDA): We will conduct in-depth exploratory data analysis to uncover patterns, trends, and insights within the dataset, providing a solid foundation for subsequent analysis.
-
-- Machine Learning Modeling: Leveraging advanced machine learning algorithms, we will develop predictive models to forecast future salary trends and identify key factors influencing compensation in data science.
-
-- Model Interpretation and Evaluation: We will interpret the results of our models and evaluate their performance, ensuring the reliability and accuracy of our predictions.
-
-- Visualization and Communication: We will communicate our findings through intuitive visualizations and clear, concise reports, enabling stakeholders to easily understand and utilize the insights generated by our analysis.
-
-### Objectives
-The objectives of this capstone project are as follows:
-
-- Data Collection: Gather a diverse range of data sources spanning from 2020 to 2024, capturing salary trends in the field of data science.
-
-- Data Cleaning and Processing: Clean and preprocess the collected data to ensure accuracy and consistency.
-
-- Exploratory Data Analysis (EDA): Conduct exploratory data analysis to uncover patterns, trends, and insights within the dataset.
-
-- Machine Learning Modeling: Develop predictive models to forecast future salary trends and identify key factors influencing compensation in data science.
-
-- Model Interpretation and Evaluation: Interpret the results of our models and evaluate their performance to ensure reliability and accuracy.
-
-- Visualization and Communication: Communicate our findings through intuitive visualizations and clear, concise reports, enabling stakeholders to easily understand and utilize the insights generated by our analysis.
-
-### Potential Impact
-The potential impact of this capstone project spans across various stakeholders within the data science community:
-
-- Professionals: Data science professionals will benefit from access to accurate and comprehensive salary trends, enabling them to make informed decisions about their career paths, negotiate better compensation packages, and plan for their future growth and development.
-
-- Organizations: Companies operating in the data science space will gain valuable insights into salary dynamics, allowing them to benchmark their compensation packages against industry standards, attract top talent, and retain skilled employees. Additionally, businesses can use this information to optimize their hiring strategies and allocate resources more effectively.
-
-- Educational Institutions: Academic institutions offering data science programs will have access to real-world salary data, allowing them to tailor their curriculum to meet the evolving needs of the industry and provide students with relevant and practical skills.
-
-- Policy Makers: Policy makers and regulators may use the insights generated by this project to inform policies related to workforce development, talent retention, and economic growth in the data science sector.
-
-- Community: By fostering transparency and knowledge-sharing within the data science community, this project contributes to the overall advancement and professionalism of the field, empowering individuals to make informed decisions and drive positive change.
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Dataset
+
+### Built With
+<!--
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+-->
+- Jupyter Notebook
+- Python (+ pandas, numpy, glob and more)
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+## Getting Started
+
+Since the project is made using Jupyter Notebook, you need Jupyter Notebook or a software compatible with .ipynb files.
+
+### Prerequisites
+
+Make sure you download the appropriate datasets and not just the notebook.
+
+<!--
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+  -->
+  
+### Installation
+<!--
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+ -->
+
+Click here to install Jupyter Notebook: https://jupyter.org/install
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Data Description
 The primary dataset was sourced from ai-jobs.net, consisting of 14,299 rows and 11 columns.
 
 ### Data Dictionary
-- work_year: The year the salary was paid.
-- experience_level: The experience level in the job during the year with the following possible values:
----  EN: Entry-level / Junior
----  MI: Mid-level / Intermediate
----  SE: Senior-level / Expert
----  EX: Executive-level / Director
-- employment_type: The type of employment for the role:
---- PT: Part-time
---- FT: Full-time
---- CT: Contract
---- FL: Freelance
-- job_title: The role worked in during the year.
-- salary: The total gross salary amount paid.
-- salary_currency: The currency of the salary paid as an ISO 4217 currency code.
-- salary_in_usd: The salary in USD (FX rate divided by avg. USD rate of respective year) via statistical data from the BIS and central banks.
-- employee_residence: Employee's primary country of residence during the work year as an ISO 3166 country code.
-- remote_ratio: The overall amount of work done remotely, possible values are as follows:
--- 0: No remote work (less than 20%)
--- 50: Partially remote/hybrid
--- 100: Fully remote (more than 80%)
-- company_location: The country of the employer's main office or contracting branch as an ISO 3166 country code.
-- company_size: The average number of people that worked for the company during the year:
---- S: less than 50 employees (small)
---- M: 50 to 250 employees (medium)
---- L: more than 250 employees (large) (large) |
+### Dataset Description
+
+| Column Name       | Description                                                                                                        |
+|-------------------|--------------------------------------------------------------------------------------------------------------------|
+| work_year         | The year when the salary was paid.                                                                                 |
+| experience_level  | The job experience level categorized as follows: EN (Entry-level / Junior), MI (Mid-level / Intermediate), SE (Senior-level / Expert), EX (Executive-level / Director). |
+| employment_type   | Type of employment for the role: PT (Part-time), FT (Full-time), CT (Contract), FL (Freelance).                  |
+| job_title         | The role held during the year.                                                                                     |
+| salary            | Total gross salary amount paid.                                                                                    |
+| salary_currency   | Currency of the salary paid as an ISO 4217 currency code.                                                          |
+| salary_in_usd     | Salary converted to USD using statistical data from the BIS and central banks.                                      |
+| employee_residence| Employee's primary country of residence during the work year as an ISO 3166 country code.                          |
+| remote_ratio      | The percentage of work done remotely, categorized as: 0 (No remote work), 50 (Partially remote/hybrid), 100 (Fully remote).|
+| company_location  | Country of the employer's main office or contracting branch as an ISO 3166 country code.                          |
+| company_size      | The average number of employees in the company, categorized as: S (Less than 50 employees), M (50 to 250 employees), L (More than 250 employees). |
+
 
 ### Data Source
 https://ai-jobs.net/salaries/download/
@@ -241,3 +241,5 @@ https://ai-jobs.net/salaries/download/
 
 - Search for patterns, trends, or anomalies in the data that may require further investigation.
 - Use visualization techniques such as time series plots, trend lines, or anomaly detection algorithms to identify interesting patterns or outliers.
+
+
