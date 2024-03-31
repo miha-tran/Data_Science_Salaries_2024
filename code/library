@@ -1,1 +1,33 @@
-123
+import warnings
+warnings.filterwarnings('ignore')
+
+# Import Neccessary libraries
+import numpy as np 
+import pandas as pd
+
+# Import Visualization libraries
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+
+# Import Statistics libraries
+from scipy import stats
+from scipy.stats import norm
+
+# Import Scikit-learn for Machine Learning libraries
+from sklearn.preprocessing import LabelEncoder, StandardScaler, MinMaxScaler
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
+from sklearn.pipeline import Pipeline
+from sklearn.pipeline import Pipeline
+from sklearn.manifold import TSNE
+
+# Import country code libraries
+!pip install pycountry -q
+import pycountry
+
+#Install plot library
+import plotly.io as pio
+pio.renderers.default='notebook'
