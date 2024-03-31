@@ -5,7 +5,7 @@
   <a href="[https://github.com/miha-tran/Data_Science_Salaries_2024/code]"><strong>Explore the jupyter file »</strong></a>
     <br />
     <br />
-    <a [href="https://github.com//miha-tran/Data_Science_Salaries_2024/dataset]">Explore the dataset </a>
+    <a [href="https://github.com//miha-tran/Data_Science_Salaries_2024/dataset]">Dataset </a>
     ·
     <a href="https://github.com//miha-tran/Data_Science_Salaries_2024/issues">Report Bug</a>
     ·
