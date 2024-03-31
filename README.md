@@ -13,7 +13,6 @@
 </p>
 </div>
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -36,7 +35,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -64,19 +62,8 @@ This project is anticipated to bring tangible benefits to both society and busin
 
 
 ## Built With
-<!--
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
--->
 - Jupyter Notebook/ Kernel3
 - Python
-- Detail of libraries ( <a href="[https://github.com/miha-tran/Data_Science_Salaries_2024/code]">)
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +74,7 @@ Since the project is made using Jupyter Notebook, you need Jupyter Notebook or a
   
 ### Installation
 
-Click here to install Jupyter Notebook: https://jupyter.org/install
+Click here to install Jupyter Notebook: [https://jupyter.org/install](https://jupyter.org/install)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -95,6 +82,7 @@ Click here to install Jupyter Notebook: https://jupyter.org/install
 The primary dataset was sourced from ai-jobs.net, consisting of 14,299 rows and 11 columns.
 
 ### Data Dictionary
+
 
 | Column Name       | Description                                                                                                        |
 |-------------------|--------------------------------------------------------------------------------------------------------------------|
