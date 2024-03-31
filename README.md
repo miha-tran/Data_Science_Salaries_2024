@@ -82,7 +82,6 @@ This project is anticipated to bring tangible benefits to both society and busin
 
 <!-- GETTING STARTED -->
 ## Getting Started
-## Getting Started
 
 Since the project is made using Jupyter Notebook, you need Jupyter Notebook or a software compatible with .ipynb files.
 
