@@ -27,7 +27,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -62,9 +61,9 @@ Utilizing machine learning, the insights from the data can be harnessed to under
 This project is anticipated to bring tangible benefits to both society and businesses. By leveraging advanced technology, the aim is to assist companies in setting salaries more effectively, thereby increasing employee satisfaction and reducing turnover rates. This could potentially save businesses expenses associated with hiring and training new staff. Additionally, by streamlining the salary negotiation process, both employees and companies can save valuable time. Moreover, offering fair and competitive pay can help companies attract top talent, giving them a competitive edge in the market. In essence, the project aims to enhance the salary determination process for all stakeholders involved.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## Dataset
 
-### Built With
+
+## Built With
 <!--
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
@@ -75,43 +74,18 @@ This project is anticipated to bring tangible benefits to both society and busin
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 -->
-- Jupyter Notebook
-- Python (+ pandas, numpy, glob and more)
+- Jupyter Notebook/ Kernel3
+- Python
+- Detail of libraries ( <a href="[https://github.com/miha-tran/Data_Science_Salaries_2024/code]">)
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
 Since the project is made using Jupyter Notebook, you need Jupyter Notebook or a software compatible with .ipynb files.
 
-### Prerequisites
-
-Make sure you download the appropriate datasets and not just the notebook.
-
-<!--
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  -->
   
 ### Installation
-<!--
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
- -->
 
 Click here to install Jupyter Notebook: https://jupyter.org/install
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +95,6 @@ Click here to install Jupyter Notebook: https://jupyter.org/install
 The primary dataset was sourced from ai-jobs.net, consisting of 14,299 rows and 11 columns.
 
 ### Data Dictionary
-### Dataset Description
 
 | Column Name       | Description                                                                                                        |
 |-------------------|--------------------------------------------------------------------------------------------------------------------|
@@ -144,84 +117,65 @@ https://ai-jobs.net/salaries/download/
 <!-- SIMPLE ROADMAP -->
 ## Simple Roadmap
 
-- [x] Finding the right dataset(s)
-- [x] Cleaning the dataset and filling the empty values as needed
-- [x] Trying multiple types of prediction models
-- [ ] Finding the best model for the current situation
-- [ ] Training the model for maximum efficiency
-- [ ] Export a clean dataframe/CSV on Kaggle for other users
-- [ ] Hosting the project on a website for easy utilization
-- [ ] Updating the dataset every quarter or every year, for maximum efficiency of the predictions
+- [x] Identifying and acquiring relevant IT salary datasets
+- [x] Data preprocessing and cleaning to ensure data quality
+- [x] Experimentation with various predictive modeling techniques
+- [x] Selection and optimization of the most effective prediction model for IT salaries
+- [x] Refinement and training of the chosen model to enhance prediction accuracy
+- [ ] Publishing the refined dataset as a clean CSV on Kaggle to benefit the community
+- [ ] Deployment of the prediction model on a web platform for user-friendly access
+- [ ] Periodic data updates (quarterly or annually) to maintain and improve prediction relevance
 
 
 <!-- DETAILED ROADMAP -->
 ## Detailed Roadmap
 
-- [x] Finding the right dataset(s)
+- [x] Identifying and acquiring relevant IT salary datasets
 
-Finding the right dataset was difficult. When I started this project, I wanted to make it about predicting both game ratings as well as game sales. However, after checking some datasets regarding sales, it seemed like most of the datasets were incomplete. I could find more info on VGChartz, but I would have to do all of it line by line. After a few lines, I also realized that I had to search every game separately, as the data was not at the same place for all the games. And it was also hard to find the data outside of "Total Sales".
+Securing the right dataset was challenging. Available datasets were either too small or outdated. After reviewing several sources, I opted for a comprehensive dataset with around 15,000 entries, which offers a good balance between volume and recency.
 
-I debatted still keeping sales but because of the time constraint, I decided to drop sales for now and focus on the rating prediction.
+- [x] Data preprocessing and cleaning to ensure data quality
 
-- [x] Cleaning the dataset and filling the empty values as needed
+Initially, I manually processed each data entry. However, given the scale, I streamlined the process, focusing only on the most impactful variables for IT salaries. This approach led to a cleaner, more focused dataset conducive to predictive modeling.
 
-Just like the first point, I tried to fill the values line by line at first, when I was still working on both ratings and sales. However, I since I turned out to only find about 2000 lines of data, I deemed it incomplete and I stopped filling in the values. I also wanted to fill in the values regarding story-focused games and gameplay-focus games, but I realized that it was most of the time correlated with the genre. So I also stopped doing that.
+- [x] Experimentation with various predictive modeling techniques
 
-When I only kept the rows with the info in the Metacritic Score, it was about 14k and I decided it was enough.
+I began by applying several predictive models to understand which best fits our data's nature. Adjustments were made to fine-tune these models, focusing on categorizing IT roles and experience levels accurately. This iterative process was essential for narrowing down to the most suitable model for salary prediction.
 
-- [x] Trying multiple types of prediction models
-
-Right after I finally decided to go on with the ratings and not the sales, I threw in some models. I had to adjust the cut-off value for the categories a few times, to make it easier to categorize the games. After deciding on 3 categories, I found the sweet spots and decided to change notebook after that. The first notebook was getting long and slow and it would be better to start anew for the modelling. I transferred the first few models I did to the bottom of the new notebook and then started the pre-processing. (still in the works)
-
-
-- [ ] Finding the best model for the current situation
-- [ ] Training the model for maximum efficiency
-- [ ] Export a clean dataframe/CSV on Kaggle for other users
-- [ ] Hosting the project on a website for easy utilization
-- [ ] Updating the dataset every quarter or every year, for maximum efficiency of the predictions
+- [ ] Selection and optimization of the most effective prediction model for IT salaries
+- [ ] Refinement and training of the chosen model to enhance prediction accuracy
+- [ ] Publishing the refined dataset as a clean CSV on Kaggle to benefit the community
+- [ ] Deployment of the prediction model on a web platform for user-friendly access
+- [ ] Periodic data updates (quarterly or annually) to maintain and improve prediction relevance
 
 <br>
-And of course, updating the README.md everytime I add new features or the project gets closer to completion.
+Updates to the README.md will be made regularly to reflect progress and new features.
 <br>
-See the [open issues](https://github.com/benji02/capstone_project/issues) for a full list of proposed features (and known issues).
+Visit the [open issues](https://github.com/miha-tran/Data_Science_Salaries_2024/issues) for a comprehensive list of planned enhancements and known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
-<!--
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are essential for the continuous enhancement and accuracy of IT salary predictions. Suggestions and contributions are warmly welcomed.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
--->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
-<!--
-Distributed under the MIT License. See `LICENSE.txt` for more information.
- -->
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Benjamin Lavoie - [LinkedIn](https://www.linkedin.com/in/minh-hai/ ) - mihari.tran@gmail.com
+Project Contact - Miha Tran - mihari.tran@gmail.com
 
-Project Link: [https://github.com/benji02/capstone_project](https://github.com/miha-tran/Data_Science_Salaries_2004)
+LinkedIn: [https://www.linkedin.com/in/minh-hai/](https://www.linkedin.com/in/minh-hai/)
+
+Project Link: [https://github.com/miha-tran/Data_Science_Salaries_2024](https://github.com/miha-tran/Data_Science_Salaries_2024)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
