@@ -2,14 +2,14 @@
 
  <p align="center">Welcome to the my capstone Project for BrainStation Bootcamp.
   <br />
-  <a href="[https://github.com/miha-tran/Data_Science_Salaries_2024/code]"><strong>Explore the jupyter file »</strong></a>
+  <a href="[https://github.com/miha-tran/Data_Science_Salaries_2024/tree/main/code]"><strong>Explore the jupyter file »</strong></a>
     <br />
     <br />
-    <a [href="https://github.com//miha-tran/Data_Science_Salaries_2024/dataset]">Dataset </a>
+    <a [href="https://github.com/miha-tran/Data_Science_Salaries_2024/tree/main/dataset]">Dataset </a>
     ·
-    <a href="https://github.com//miha-tran/Data_Science_Salaries_2024/issues">Report Bug</a>
+    <a href="https://github.com/miha-tran/Data_Science_Salaries_2024/issues">Report Bug</a>
     ·
-    <a href="https://github.com//miha-tran/Data_Science_Salaries_2024/Pull Requests">Request Feature</a>
+    <a href="https://github.com/miha-tran/Data_Science_Salaries_2024/pulls">Request Feature</a>
   </p>
 </div>
 
