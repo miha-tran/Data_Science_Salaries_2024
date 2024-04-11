@@ -1,4 +1,4 @@
-# Streamlit - Echarts - Demo
+# Streamlit - Data Science Salaries 2024
 
 Streamlit ECharts demo on Streamlit Sharing
 
@@ -10,4 +10,5 @@ Streamlit ECharts demo on Streamlit Sharing
 - Add the example source code in the corresponding module in `demo_echarts` or `demo_pyecharts`.
 - Add a line for your demo in `ST_xxx_DEMOS` at the end of the module.
 - Check the demo `streamlit run app.py`.
-- Request a PR.
+
+  Credit: Made by @andfanilo
